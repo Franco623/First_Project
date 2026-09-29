@@ -1,8 +1,8 @@
 # Código simples para teste GitHUb
 # Franco Umilio __ umiliof@gmail.com
 
-#  Exercicio pede 2 numeros de um intervalo, inicio e fim,
-#  procura os numeros pares no intervallo digitado e exibe na tela,
+#  Exercicio pede 2 numeros de um intervalo, "inicio e fim",
+#  procura os numeros pares e exibe na tela,
 #  também conta quantos numeros pares existem e exibe o resultado
 
 # Entrada dos intervalos
