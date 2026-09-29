@@ -11,7 +11,7 @@ fim = int(input('Digite o número do fim do intervalo: '))
 if inicio % 2 != 0:
         inicio += 1
         
-# Contador para calcular quantos números pares existe no intevalo digitado na entrada        
+# Contador para calcular quantos números pares existem no intevalo digitado na entrada        
 cont = 0  
  
 # Exibe na tela os numeros pares de intervalo        
