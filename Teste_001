@@ -1,11 +1,9 @@
-# Código simples para teste GitHUb
+# Código simples em Python para teste GitHUb
 # Franco Umilio __ umiliof@gmail.com
 
-#  Exercicio pede 2 numeros de um intervalo, "inicio e fim",
-#  procura os numeros pares e exibe na tela,
-#  também conta quantos numeros pares existem e exibe o resultado
-
+# Código que conta e exibe os números pares de um intervalo.
 # Entrada dos intervalos
+
 inicio = int(input('Digite o número do início do intervalo: '))
 fim = int(input('Digite o número do fim do intervalo: '))
 
