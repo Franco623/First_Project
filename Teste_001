@@ -1,0 +1,31 @@
+# Código simples para teste GitHUb
+# Franco Umilio __ umiliof@gmail.com
+
+#  Exercicio pede 2 numeros de um intervalo, inicio e fim,
+#  procura os numeros pares no intervallo digitado e exibe na tela,
+#  também conta quantos numeros pares existem e exibe o resultado
+
+# Entrada dos intervalos
+inicio = int(input('Digite o número do início do intervalo: '))
+fim = int(input('Digite o número do fim do intervalo: '))
+
+# Se o início for ímpar, avança para o próximo par.
+if inicio % 2 != 0:
+        inicio += 1
+        
+# Contador para calcular quantos números pares existe no intevalo digitado na entrada        
+cont = 0  
+ 
+# Exibe na tela os numeros pares de intervalo        
+print("Os números pares do intervalo que você digitou são:")
+
+# Percorre o intervalo e calcula o total de pares 
+for i in range(inicio, fim + 1, 2):
+    cont = cont+1
+    print(i)
+
+# Exibe na tela o resultado
+print ('No intervalo entre', inicio, "e" , fim)
+print ('Existem ',cont ,' números pares')
+
+#Fim
